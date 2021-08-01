@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #18181b;
+  padding: 8px 0;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6em;
+  color: #ffff;
+}
+
+.logo img {
+  width: 32px;
+  height: 32px;
+  margin: 0 10px 0 54px;
+}
+
+main {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.desc {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.desc p {
+  color: #18181b;
+}
+
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  border-radius: 8px;
+  margin: 14px;
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Roboto', Verdana, Tahoma, sans-serif;
+  color: #c9d1d9;
+  background-color: #121821;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-card {
+  display: block;
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin: 0px auto 24px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #e1e6ea;
+  margin: 5px 0;
+}
+
+p {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 1.1em;
+  color: #c9d1d9;
+  line-height: 2em;
+}
+
+.idade {
+  font-size: .9em;
+  color: #8b949e;
+}
+
+.redes-sociais {
+  margin-top: 32px;
+  padding: 6px;
+  margin-bottom: -10px;
+  border-top: 2px solid #252528;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 12px;
+}
+
+ul li {
+  flex-wrap: wrap;
+  margin-right: 10px;
+}
+
+ul li a img {
+  margin-left: 10px;
+}
+
